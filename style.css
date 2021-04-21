@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    display: block;
+    margin: 5px auto;
+    width: 750px;
+    background-color: darkgray;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.header h1 {
+    flex: 2;
+    font-family: 'Comic Sans MS', 'Serif';
+    font-size: 32px;
+    padding: 15px 10px;
+}
+
+.header h2 {
+    display: inline-block;
+    flex: 6;
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 25px;
+}
+
+.container {
+    background-image: radial-gradient(circle, rgb(111, 89, 100, 0.5), rgb(29, 13, 17));
+    padding: 10px;
+}
+
+.row1 {
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.row1 img {
+    flex: 4;
+    border: 5px solid lightgray;
+    margin-right: 15px;
+}
+
+.row1 .section {
+    flex: 5;
+}
+
+.row2 {
+    vertical-align: top;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.row2 .section {
+    flex: 3;
+    text-align: justify;
+    background-image: linear-gradient(to right, white, rgb(220, 205, 219))
+}
+
+#middle {
+    margin: 0 20px;
+}
+
+.row2 .section p {
+    height: 150px;
+}
+
+.row2 img {
+    width: 100%;
+}
+
+.section {
+    background-color: white;
+    font-family: arial;
+    font-size: 12px;
+}
+
+.section h3 {
+    background-color: gray;
+    color: white;
+    height: 15px;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.section p {
+    margin: 8px;
+    line-height: 115%;
+}
+
+.row1 a {
+    margin: 8px;
+}
+
+.technologies {
+    display: flex;
+    justify-items: flex-start;
+}
+.technologies img {
+    flex: 1;
+    padding: 2px;
+    margin: 2px 0;
+}
+
+.technologies div {
+    flex: 1;
+    padding: 2px;
+    margin-left: 1px;
+}
+
+.row2 span {
+    flex: 1;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+}
+
+.button a {
+    background-color: forestgreen; 
+    border: 2px solid black;
+    box-shadow: 0 3px 3px 0 gray;
+    color: white;
+    margin: 5px auto 15px;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration-line: none;
+}
+
+.footer {
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.footer2 {
+    display: inline-block;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.footer2 a {
+    font-style: italic;
+    padding-bottom: 5px;
+}
+
+.footer2 img {
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    margin: 0px 5px;
+}
